@@ -120,7 +120,7 @@
                         <div class="col-sm-6 py-2"><h6>GitHub <span class="text-secondary">github.com/DavidGomesL</span></h6></div>
                     </div>
                     <a href="" class="btn btn-outline-primary mr-4">Contrate-me</a>
-                    <a href="" class="btn btn-outline-primary">Saber mais</a>
+                    <!-- <a href="" class="btn btn-outline-primary">Saber mais</a> -->
                 </div>
             </div>
         </div>
@@ -370,7 +370,7 @@
     </div>
     <!-- Portfolio End -->
 
-    <!-- Contact Start -->
+   <!-- Contact Start -->
 <div class="container-fluid py-5" id="contact">
     <div class="container">
         <div class="position-relative d-flex align-items-center justify-content-center">
@@ -382,31 +382,27 @@
                 <div class="contact-form text-center">
                     <div id="success"></div>
                     <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                        <div class="form-row">
+                        <div class="form-row mb-3">
                             <div class="control-group col-sm-6">
                                 <input type="text" class="form-control p-4" id="name" placeholder="Seu nome"
-                                    required="required" data-validation-required-message="Por favor, insira seu nome" />
-                                <p class="help-block text-danger"></p>
+                                    value="David Gomes" readonly required="required" />
                             </div>
                             <div class="control-group col-sm-6">
-                                <input type="email" class="form-control p-4" id="email" placeholder="Seu email"
-                                    required="required" data-validation-required-message="Por favor, insira seu email" />
-                                <p class="help-block text-danger"></p>
+                                <input type="tel" class="form-control p-4" id="phone" placeholder="Seu telefone"
+                                    value="(85) 99983-7523" readonly required="required" />
                             </div>
                         </div>
-                        <div class="control-group">
-                            <input type="text" class="form-control p-4" id="subject" placeholder="Assunto"
-                                required="required" data-validation-required-message="Por favor, insira um assunto" />
-                            <p class="help-block text-danger"></p>
+                        <div class="control-group mb-3">
+                            <input type="email" class="form-control p-4" id="email" placeholder="Seu email"
+                                value="davidgomes1194@gmail.com" readonly required="required" />
                         </div>
                         <div class="control-group">
-                            <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Mensagem"
-                                required="required" data-validation-required-message="Por favor, insira sua mensagem"></textarea>
-                            <p class="help-block text-danger"></p>
+                            <input type="url" class="form-control p-4" id="linkedin" placeholder="Seu LinkedIn"
+                                value="linkedin.com/in/david-gomes-b219b4210/" readonly required="required" />
                         </div>
-                        <div>
-                            <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Enviar Mensagem</button>
-                        </div>
+                        <!-- <div>
+                            <button class="btn btn-outline-primary" type="button" id="sendMessageButton" disabled>Enviar Mensagem</button>
+                        </div> -->
                     </form>
                 </div>
             </div>
@@ -418,31 +414,33 @@
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
-        <div class="container text-center py-5">
-            <div class="d-flex justify-content-center mb-4">
-                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
-            </div>
-            <div class="d-flex justify-content-center mb-3">
-                <a class="text-white" href="#">Privacy</a>
-                <span class="px-3">|</span>
-                <a class="text-white" href="#">Terms</a>
-                <span class="px-3">|</span>
-                <a class="text-white" href="#">FAQs</a>
-                <span class="px-3">|</span>
-                <a class="text-white" href="#">Help</a>
-            </div>
-            <p class="m-0 " style="display:none"> &copy; <a class="text-white font-weight-bold" href="#">Domain Name</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
-            </p>
+<div class="container-fluid bg-primary text-white mt-5 py-4 px-sm-3 px-md-5">
+    <div class="container text-center py-2">
+        <div class="d-flex justify-content-center mb-4">
+            <a class="btn btn-light btn-social mr-2" href="mailto:davidgomes1194@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/david-gomes-b219b4210/"><i class="fab fa-linkedin-in"></i></a>
+            <!-- <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a> -->
         </div>
+        <div class="d-flex justify-content-center mb-3">
+            <a class="text-white" href="#">Privacy</a>
+            <span class="px-3">|</span>
+            <a class="text-white" href="#">Terms</a>
+            <span class="px-3">|</span>
+            <a class="text-white" href="#">FAQs</a>
+            <span class="px-3">|</span>
+            <a class="text-white" href="#">Help</a>
+        </div>
+        <p class="m-0" style="display:none">
+            &copy; <a class="text-white font-weight-bold" href="#">Domain Name</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+        </p>
     </div>
-    <!-- Footer End -->
+</div>
+<!-- Footer End -->
 
     <!-- Scroll to Bottom -->
-    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+    <!-- <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i> -->
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
